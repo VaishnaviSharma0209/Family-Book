@@ -8,7 +8,7 @@ var picture=[
     "me1.jpg",
     "Paru1.JPG"
 ];
-var name=[
+var people_name=[
     "Vaishnavi Sharma (Me)",
     "Shivani Sharma (Sister)",
     "Reshmi Cp (Mother)",
@@ -20,7 +20,7 @@ var name=[
 ];
 var i=0;
 function Nextpic(){
-    document.getElementById("people").innerHTML=name[i];
+    document.getElementById("people").innerHTML=people_name[i];
     document.getElementById("Image").src=picture[i];
     i++
     if (i==7){
